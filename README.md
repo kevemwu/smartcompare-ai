@@ -19,10 +19,7 @@ SmartCompare AI 是一個的電商智能分類比價搜尋平台，**使用本�
 
 ~~> 💡 您可以直接訪問 [https://smartcompare.juan2ndstreet.com/](https://smartcompare.juan2ndstreet.com/) 體驗網站功能，無需本地部署！（此網域使用 Cloudfalre 代理）~~
 
-> ⚠️ 目前網站部署後遇到前後端溝通問題（本地運行仍正常），您可以觀看下方操作示範影片：
-
-<video src="docs/操作範例.mp4" controls="controls" style="max-width: 730px;">
-</video>
+> ⚠️ 目前網站部署後遇到前後端溝通問題（本地運行仍正常），您可以觀看[操作示範影片](https://youtu.be/tjho3XAiGSE)了解功能展示。
 
 ### 本地開發
 
