@@ -8,7 +8,7 @@
 
 基於這個動機，我希望建立一個具備「商品內容分類」與「搜尋結果預處理能力」的比價平台，改善這類搜尋偏差問題。
 
-開發初期，我透過 ChatGPT 協助構思整體專案架構與資料庫設計，建立 GitHub Repo 並以 Cursor 開始撰寫主體程式碼。我也將初步架構與想法導入 ChatGPT 的記憶，請它協助我擬定模組化開發流程。前端畫面則是先由我撰寫 prompt [💡 Lovable Prompts](docs/LOVABLE_PROMPTS.md)，透過 Lovable 平台快速生成，接著再回到 Cursor 中整合與調整。
+開發初期，我透過 ChatGPT 協助構思整體專案架構與資料庫設計，建立 GitHub Repo 並以 Cursor 開始撰寫主體程式碼。我也將初步架構與想法導入 ChatGPT 的記憶，請它協助我擬定模組化開發流程。前端畫面則是先由我撰寫 prompt [💡 Lovable Prompts](LOVABLE_PROMPTS.md)，透過 Lovable 平台快速生成，接著再回到 Cursor 中整合與調整。
 
 ### 🎯 核心目標
 
