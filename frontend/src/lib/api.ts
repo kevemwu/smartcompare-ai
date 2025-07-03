@@ -1,4 +1,6 @@
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:4001';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 
+  // @ts-ignore
+  (typeof __VITE_API_BASE_URL__ !== 'undefined' ? __VITE_API_BASE_URL__ : 'http://localhost:4001');
 
 // 簡化的 API 請求包裝器（無認證）
 const apiRequest = async (endpoint: string, options: RequestInit = {}) => {

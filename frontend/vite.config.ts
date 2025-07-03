@@ -9,6 +9,11 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 4000,
   },
+  define: {
+    __VITE_API_BASE_URL__: mode === 'production' 
+      ? JSON.stringify('https://api.smartcompare.juan2ndstreet.com')
+      : JSON.stringify('http://localhost:4001')
+  },
   plugins: [
     react(),
     mode === 'development' &&

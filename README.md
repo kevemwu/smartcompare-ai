@@ -4,7 +4,7 @@
 
 **基於本地 LLM + 雲端 API 的電商智能分類比價搜尋平台**
 
-🌐 [線上體驗](https://smartcompare.juan2ndstreet.com/) •
+🌐 [線上體驗](http://localhost:4000/) •
 [📝 設計文檔](docs/DESIGN.md) •
 [💡 Lovable Prompts](docs/LOVABLE_PROMPTS.md)
 
@@ -17,7 +17,7 @@ SmartCompare AI 是一個的電商智能分類比價搜尋平台，**使用本�
 
 ## 🚀 快速開始
 
-> 💡 您可以直接訪問 [https://smartcompare.juan2ndstreet.com/](https://smartcompare.juan2ndstreet.com/) 體驗網站功能，無需本地部署！（此網域使用 Cloudfalre 代理）
+> 💡 您可以直接訪問 [http://localhost:4000/](http://localhost:4000/) 體驗網站功能，無需本地部署！（此網域使用 Cloudfalre 代理）
 
 ### 本地開發
 

@@ -22,10 +22,10 @@ const app = express();
 // CORS 配置
 const corsOptions = {
   origin: [
-    'https://smartcompare.juan2ndstreet.com',  // Production
     'http://localhost:4000',  // Local frontend
     'http://localhost:5173',  // Vite dev
     'http://localhost:4173',  // Vite preview
+    'https://smartcompare.juan2ndstreet.com',  // Production frontend
   ],
   credentials: true,
   optionsSuccessStatus: 200
@@ -115,8 +115,8 @@ app.use(errorHandler);
 const PORT = process.env.PORT || 4001;
 
 const server = app.listen(PORT, () => {
-  logger.info(`📡 伺服器運行在 https://api.smartcompare.juan2ndstreet.com (本機: http://localhost:${PORT})`);
-  logger.info(`📖 API 文件: https://api.smartcompare.juan2ndstreet.com/api-docs (本機: http://localhost:${PORT}/api-docs)`);
+  logger.info(`📡 伺服器運行在 http://localhost:4001 (本機: http://localhost:${PORT})`);
+  logger.info(`📖 API 文件: http://localhost:4001/api-docs (本機: http://localhost:${PORT}/api-docs)`);
   
   if (process.env.NODE_ENV === 'development') {
     logger.info(`📖 API 文件: http://localhost:${PORT}/api-docs`);
