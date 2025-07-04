@@ -5,7 +5,7 @@
 **基於本地 LLM + 雲端 API 的電商智能分類比價搜尋平台**
 
 ~~🌐 [線上體驗](https://smartcompare.juan2ndstreet.com/)~~ •
-[📝 設計文檔](docs/DESIGN.md) •
+[📝 實作想法與心得](docs/DESIGN.md) •
 [💡 Lovable Prompts](docs/LOVABLE_PROMPTS.md)
 
 </div>
