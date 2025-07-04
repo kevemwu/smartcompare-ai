@@ -146,14 +146,14 @@ LLM_PERFORMANCE_MONITORING=true
 
 ### 本地部署注意事項
 
-如果您想要在本地部署而不是使用公開測試網站，需要注意以下幾點：
+如果您想要在本地部屬，需要注意以下幾點：
 
 1. 前端配置：
-   - 修改 `frontend/.env` 中的 `VITE_API_URL` 為您的本地後端地址
+   - 確認 `frontend/.env` 中的 `VITE_API_URL` 為您的本地後端地址
    - 預設為 `http://localhost:4000`
 
 2. 後端配置：
-   - 修改 `backend/.env` 中的 `FRONTEND_URL` 為您的前端開發伺服器地址
+   - 確認 `backend/.env` 中的 `FRONTEND_URL` 為您的前端開發伺服器地址
    - 預設為 `http://localhost:4001`
 
 3. CORS 設定：
